@@ -1,0 +1,86 @@
+body{
+    background-image: url(image/bacground1.jpg);
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+hr{
+    width: 100%;
+}
+.from-contenair{
+    width: 450px;
+    background: transparent;
+    border: 1px solid #333;
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-items: center;
+}
+h1, h2{
+    font-size: 36px;
+    text-align: center;
+    color: #fa6604;
+}
+
+.from-contenair .input-box{
+    width: 300px;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 50%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #050505;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: #0c0c0c;
+}
+.from-contenair .remember{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0 15px;
+}
+.remember label, input{
+    accent-color: #d86f19;
+    margin-right: none;
+}
+.remember a {
+    color: #fff;
+    text-decoration: none;
+}
+.remember a:hover{
+    text-decoration: underline;
+    color: rgb(16, 85, 212);
+}
+.from-contenair .btn{
+    width: 100%;
+    height: 45px;
+    background: #e76c06;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.from-contenair .btn:hover{
+    background: rgb(9, 136, 221);
+}

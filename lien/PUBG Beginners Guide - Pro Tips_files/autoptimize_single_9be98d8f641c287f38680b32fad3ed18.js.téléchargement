@@ -1,0 +1,1 @@
+$('.header-language-switch .lang-en a').each(function(){var eng_link=this;var eng_href=$(eng_link).attr('href');eng_href=eng_href.replace("/en/","/");$(eng_link).attr('href',eng_href);});
